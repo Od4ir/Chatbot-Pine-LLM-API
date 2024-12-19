@@ -84,11 +84,18 @@ Para rodar a aplicação, as seguintes dependências são necessárias:
 - **Flask**: Framework web para construir APIs em Python.
 - **google-generativeai**: Biblioteca para acessar o modelo de IA do Google.
 
-Você pode instalar essas dependências localmente com:
+Você pode instalar essas dependências usando um ambiente virtual com os seguintes comandos:
+```bash 
+python -m venv .venv
+source .venv/bin/activate
+```
+Assim é possivel criar um ambiente virtual para instalar as dependencias. Todas as dependencias da aplicação estão no arquivo requirements.txt. 
 
 ```bash
 pip install -r app/requirements.txt
 ```
+
+Com o comando acima, o ambiente virtual estará configurado com todas as bibliotecas necessárias para rodar o modelo.
 
 ## Contribuições
 
